@@ -1,0 +1,43 @@
+.item {
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem;
+}
+
+// green colour for the player on 1st position
+// darkened colour for the border
+.item--position-1 {
+    background: $green;
+    border-color: $green-alt;
+}
+
+// blue colour for the player on 2nd position
+// darkened colour for the border
+.item--position-2 {
+    background: $blue;
+    border-color: $blue-alt;
+}
+
+// red colour for the player on 3rd position
+// darkened colour for the border
+.item--position-3 {
+    background: $red;
+    border-color: $red-alt;
+}
+
+// specific for the element
+.item__message {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+// // more specific for the same element
+// .item__message--empty {
+//     color: #999999;
+// }
+
+// BEM - Block, Element, Modifier
