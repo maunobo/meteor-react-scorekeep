@@ -1,5 +1,7 @@
 # meteor-react-scorekeep
 
-### npm i   in ~/
-### meteor  in ~/
-### browser localhost:3000/
+in the root directory of the project
+#### npm i         
+#### meteor        
+
+#### localhost:3000/
